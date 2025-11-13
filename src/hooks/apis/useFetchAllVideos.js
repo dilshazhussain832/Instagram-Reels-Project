@@ -5,7 +5,7 @@ export default function useFetchAllVideos() {
     const {
         isFetching: isVideoFetching,
         isError: isVideoError,
-        isFetch: isVideoFetched,
+        isFetched: isVideoFetched,
         data: videos,
     } = useQuery({
         queryKey: "videos",
